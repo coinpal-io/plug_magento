@@ -1,0 +1,22 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="payment">
+            <group id="glocash_pay" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Coinpal</label>
+                <field id="active" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Enabled</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+                <field id="title" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Title</label>
+                </field>
+                <field id="merchant_id" translate="label" type="text" sortOrder="2" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>merchant_id</label>
+                </field>
+                <field id="api_secret" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>api_secret</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
