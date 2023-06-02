@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <glocash_pay>
+                <active>1</active>
+                <model>Glocash\Checkout\Model\Pay</model>
+                <title>Coinpal</title>
+                <order_status>processing</order_status>
+                <merchant_id />
+                <api_secret />
+                <redirect_url>glocash/standard/redirectpay</redirect_url>
+            </glocash_pay>
+        </payment>
+    </default>
+</config>

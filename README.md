@@ -11,11 +11,13 @@
 ![](./img/api-key.png)
 
 ## Step 2: Installing the Coinpal Plugin on your Magento Site.
-1. Click the  [Coinpal plug](https://github.com/CoinpalGroup/plug_Magento/blob/master/magento.zip)  Download Coinpal Magento Payment Plug
+1. Click the  [Coinpal plug](https://github.com/CoinpalGroup/plug_magento/blob/master/magento.zip)  Download Coinpal Magento Payment Plug
 2. Unzip the magento.zip file and enter the magento folder
+
 ![](./img/file1.png)
 
 3. Copy the Coinpal folder to the Magento root app/code directory
+
 ![](./img/file2.png)
 
 4. In command line, navigate to the magento root folder
@@ -26,7 +28,8 @@ php bin/magento module:enable Coinpal_Checkout --clear-static-content
 php bin/magento setup:upgrade
 ```
 
-If the page prompts: "There has been an error processing your request", run the following:
+   If the page prompts: "There has been an error processing your request", run the following:
+   
 ```
 php bin/magento setup:static-content:deploy -f
 ```
