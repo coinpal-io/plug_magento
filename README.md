@@ -11,7 +11,7 @@
 ![](./img/api-key.png)
 
 ## Step 2: Installing the Coinpal Plugin on your Magento Site.
-1. Click the  [Coinpal plug](https://github.com/CoinpalGroup/plug_magento/blob/master/magento.zip)  Download Coinpal Magento Payment Plug
+1. Click the  [Coinpal plug](https://github.com/coinpal-io/plug_magento/blob/master/magento.zip)  Download Coinpal Magento Payment Plug
 2. Unzip the magento.zip file and enter the magento folder
 
 ![](./img/file1.png)
