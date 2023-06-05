@@ -61,12 +61,11 @@ Proceed to Checkout
 
 Select Pay Crpto with Coinpal as the Payment Method.
 
-Click Continue button
-
-Click Confirm Order button
+Click Continue Coinpal button
 
 If you like you can now proceed to making a test payment.
 
+![](./img/checkout.png)
 
 ## Step 4: Marking a Payment as Received on Magento.
 
