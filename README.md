@@ -48,7 +48,7 @@ Copy and Paste all of the Settings you generated in your Coinpal Dashboard on St
 
 Click Save Config Changes.
 
-![](./img/set3.png)
+![](./img/save.png)
 
 
 ## Step 3: Testing your Coinpal Magento Integration.
