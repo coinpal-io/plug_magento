@@ -1,6 +1,6 @@
 # Magento Coinpal Checkout Installation
 
-## Step 1: Login Coinpal Admin Dashboard get Merchant No and Secret Key.
+## Step 1: Log in to the Coinpal Admin Dashboard to get the Merchant Number and Secret Key.
 1. [Register](https://portal.coinpal.io/#/admin/register)/[login](https://portal.coinpal.io/#/admin/login) and go to Coinpal's Admin Dashboard 
 
 ![](./img/register.png)
@@ -11,7 +11,7 @@
 ![](./img/api-key.png)
 
 ## Step 2: Installing the Coinpal Plugin on your Magento Site.
-1. Click the  [Coinpal plug](https://github.com/coinpal-io/plug_magento/blob/master/magento.zip)  Download Coinpal Magento Payment Plug
+1. Click on the [Coinpal plugin](https://github.com/coinpal-io/plug_magento/blob/master/magento.zip) to download the Coinpal Magento Payment Plug.
 2. Unzip the magento.zip file and enter the magento folder
 
 ![](./img/file1.png)
@@ -37,9 +37,9 @@ php bin/magento setup:static-content:deploy -f
 
 5. Activate the Coinpal Magento Gateway
 
-    Go to your Magento admin area and click on Stores -> Configuration-> SALES -> Payment Methods
+    Navigate to your Magento admin area and follow this path: Stores -> Configuration-> SALES -> Payment Methods.
 
-    Find the payment method Coinpal, click Install Module
+    Find the payment method named 'Coinpal'.
 ![](./img/set.png)
 
 ![](./img/set2.png)
@@ -55,11 +55,11 @@ Click Save Config Changes.
 
 To confirm your Integration is properly working create a test order:
 
-Add Test Item to Shopping Cart and View Cart.
+Add a test item to your shopping cart and view the cart.
 
 Proceed to Checkout
 
-Select Pay Crpto with Coinpal as the Payment Method.
+Select 'Pay Crypto with Coinpal' as the payment method.
 
 Click Continue Coinpal button
 
@@ -73,9 +73,9 @@ Login to your Magento Admin Dashboard.
 
 Go to the Magento Section and Click Orders.
 
-You will see the Test Orders Marked as “Paid”
+You will see the test orders marked as “Paid”.
 
-Verify the Coins are in your chosen Coinpal Wallet (The addresses you input in Step #1.)
+Verify the coins are in your chosen Coinpal Wallet (these are the addresses you input during Step #1).
 
 You may also use a Block Explorer to verify if the transaction was processed.
 
