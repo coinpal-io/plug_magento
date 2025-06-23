@@ -1,5 +1,7 @@
 # Magento Coinpal Checkout Installation
 
+!> To ensure successful transactions, please go to the [Merchant Dashboard](https://portal.coinpal.io/#/admin/login) → My Account → My Store, and add the current website domain.If the domain is not added, the system will reject any transaction requests originating from it.
+
 ## Step 1: Log in to the Coinpal Admin Dashboard to get the Merchant Number and Secret Key.
 1. [Register](https://portal.coinpal.io/#/admin/register)/[login](https://portal.coinpal.io/#/admin/login) and go to Coinpal's Admin Dashboard 
 
