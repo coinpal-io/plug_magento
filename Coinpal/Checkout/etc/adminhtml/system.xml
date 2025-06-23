@@ -16,6 +16,9 @@
                 <field id="api_secret" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>api_secret</label>
                 </field>
+                <field id="store_id" translate="label" type="text" sortOrder="4" showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>store_id</label>
+                </field>
                 <field id="order_status" translate="label" type="select" sortOrder="9" showInDefault="1" showInWebsite="1" showInStore="0">
                     <label>Paid Order Status</label>
                     <source_model>Magento\Sales\Model\Config\Source\Order\Status</source_model>

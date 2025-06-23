@@ -10,6 +10,7 @@
                 <order_status>processing</order_status>
                 <merchant_id />
                 <api_secret />
+                <store_id />
                 <redirect_url>coinpal/standard/redirectpay</redirect_url>
             </coinpal_pay>
         </payment>

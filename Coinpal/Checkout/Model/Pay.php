@@ -99,6 +99,7 @@ class Pay extends \Magento\Payment\Model\Method\AbstractMethod
             'version'=>'2',
             'requestId'=>"M".time().rand(1000,9999),
             'merchantNo'=> $this->getConfigData("merchant_id"),
+            'storeId'=> $this->getConfigData("store_id"),
             'orderNo'=> $quote->getReservedOrderId(),
             'orderCurrencyType'=>'fiat',
             'orderAmount'=>round($quote->getGrandTotal(), 2),
